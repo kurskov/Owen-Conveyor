@@ -38,6 +38,7 @@ FUNCTION_BLOCK Conveyor
                 xMotorRun := true;
             END_WHILE;
 
+            xMotorRun := false;
             xConveyorFree := true;
             
         END_IF;
